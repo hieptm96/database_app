@@ -8,7 +8,7 @@ function listAction() {
 }
 
 function newAction() {
-	load_view('new_project','');
+	load_view('new_contact','');
 }
 
 function updateAction() {
