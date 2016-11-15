@@ -7,8 +7,8 @@ function listAction() {
     load_view('list_project','');
 }
 
-function addAction() {
-	load_view('add_project','');
+function newAction() {
+	load_view('new_project','');
 }
 
 function updateAction() {

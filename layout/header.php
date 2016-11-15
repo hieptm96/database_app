@@ -41,7 +41,7 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>John Doe</h2>
+                <h2>Admin</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -56,11 +56,20 @@
                   <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                   </li>
                   
-                  <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-table"></i> Project <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tables.html">Tables</a></li>
+                      <li><a href="?mod=app&c=project&a=list" target="_self">List projects</a></li>
+                      <li><a href="?mod=app&c=project&a=new" target="_self">New project</a></li>
                     </ul>
                   </li>
+
+                  <li><a><i class="fa fa-table"></i> Contact <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="?mod=app&c=contact&a=list" target="_self">List contacts</a></li>
+                      <li><a href="?mod=app&c=contact&a=new" target="_self">New contact</a></li>
+                    </ul>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -96,7 +105,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="public/production/images/img.jpg" alt="">John Doe
+                    <img src="public/production/images/img.jpg" alt="">Admin
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">

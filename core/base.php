@@ -5,7 +5,7 @@ defined('APPPATH') OR exit('Không được quyền truy cập phần này');
 // get Controller name
 function get_controller() {
     global $config;
-    $controller = isset($_GET['controller']) ? $_GET['controller'] : $config['default_controller'];
+    $controller = isset($_GET['c']) ? $_GET['c'] : $config['default_controller'];
     return $controller;
 }
 
@@ -20,7 +20,7 @@ function get_module() {
 //get Action name
 function get_action() {
     global $config;
-    $action = isset($_GET['action']) ? $_GET['action'] : $config['default_action'];
+    $action = isset($_GET['a']) ? $_GET['a'] : $config['default_action'];
     return $action;
 }
 
