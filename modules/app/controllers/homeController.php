@@ -4,9 +4,8 @@ function construct() {
 }
 
 function indexAction() {
-    $data['list_brands'] = get_list_brands();
-    $data['list_cats'] = get_list_cats();
-    load_view('index', $data);
+    
+    load_view('index', '');
 }
 
 
