@@ -18,7 +18,7 @@
 $db = array(
     'hostname' => 'localhost',
     'username' => 'root',
-    'password' => '',
+    'password' => 'phong1996',
     'database' => 'db_issue',
 );
 
