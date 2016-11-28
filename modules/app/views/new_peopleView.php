@@ -55,24 +55,20 @@
                   </div>
                   <div class="x_content">
 
-                    <form class="form-horizontal form-label-left" novalidate>
-
-                      
-                      <span class="section">Personal Info</span>
-
+                    <form class="form-horizontal form-label-left" method="POST" action="?mod=app&c=people&a=create">
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="lastname">Last Name <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last_name">Last Name <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="lastname" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="lastname" required="required" type="text">
+                          <input id="last_name" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="last_name" required="required" type="text">
                         </div>
                       </div>
 
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firstname">First Name <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="firs_tname">First Name <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="firstname" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="firstname" required="required" type="text">
+                          <input id="firs_tname" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="firs_tname" required="required" type="text">
                         </div>
                       </div>
                       <div class="item form-group">
@@ -83,59 +79,38 @@
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="job title">Job Title <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="job_title">Job Title <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="job-title" name="job title" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="job_title" name="job_title" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Business Phone">Business Phone <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="mobile_phone">Mobile Phone <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="number" id="BusinessPhone" name="Business Phone" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="number" id="mobile_phone" name="mobile_phone" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Home Phone">Home Phone <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="fax_number">Fax Number <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="number" id="HomePhone" name="Home Phone" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="number" id="fax_number" name="fax_number" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Mobbile Phone">Mobile Phone <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="address">Address <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="number" id="MobilePhone" name="Mobile Phone" required="required" class="form-control col-md-7 col-xs-12">
+                          <input type="text" id="address" name="address" required="required" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Fax Number">Fax Number <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="web_page">Web Page <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="number" id="FaxNumber" name="Fax Number" required="required" class="form-control col-md-7 col-xs-12">
-                        </div>
-                      </div>
-                      <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Address">Address <span class="required">*</span>
-                        </label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="Address" name="Address" required="required" class="form-control col-md-7 col-xs-12">
-                        </div>
-                      </div>
-                      <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="City">City <span class="required">*</span>
-                        </label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="City" name="City" required="required" class="form-control col-md-7 col-xs-12">
-                        </div>
-                      </div>
-                      <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website">Website URL <span class="required">*</span>
-                        </label>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="url" id="website" name="website" required="required" placeholder="www.website.com" class="form-control col-md-7 col-xs-12">
+                          <input type="url" id="web_page" name="web_page" required="required" placeholder="www.website.com" class="form-control col-md-7 col-xs-12">
                         </div>
                       </div>
                       <div class="item form-group">
@@ -145,23 +120,23 @@
                         </div>
                       </div>
                       <div class="item form-group">
-                        <label for="password2" class="control-label col-md-3 col-sm-3 col-xs-12">Repeat Password</label>
+                        <label for="re_password" class="control-label col-md-3 col-sm-3 col-xs-12">Repeat Password</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="password2" type="password" name="password2" data-validate-linked="password" class="form-control col-md-7 col-xs-12" required="required">
+                          <input id="re_password" type="password" name="re_password" data-validate-linked="password" class="form-control col-md-7 col-xs-12" required="required">
                         </div>
                       </div>
                       
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Notes <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="note">Notes <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <textarea id="textarea" required="required" name="textarea" class="form-control col-md-7 col-xs-12"></textarea>
+                          <textarea id="note" required="required" name="note" class="form-control col-md-7 col-xs-12"></textarea>
                         </div>
                       </div>
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-md-offset-3">
-                          <button type="submit" class="btn btn-primary">Cancel</button>
+                            <button type="submit" class="btn btn-primary" name="submit">Cancel</button>
                           <button id="send" type="submit" class="btn btn-success">Submit</button>
                         </div>
                       </div>

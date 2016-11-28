@@ -21,6 +21,8 @@
 
     <!-- Custom Theme Style -->
     <link href="public/build/css/custom.min.css" rel="stylesheet">
+    <link href="public/build/css/style.css" rel="stylesheet">
+    <script src="public/vendors/jquery/dist/jquery.min.js"></script>
   </head>
 
   <body class="nav-md">
@@ -29,7 +31,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>My page!</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -41,7 +43,7 @@
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
-                <h2>Admin</h2>
+                <h2>To Hiep</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -63,12 +65,19 @@
                     </ul>
                   </li>
 
-                  <li><a><i class="fa fa-table"></i> Contact <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-table"></i> People <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="?mod=app&c=contact&a=list" target="_self">List contacts</a></li>
-                      <li><a href="?mod=app&c=contact&a=new" target="_self">New contact</a></li>
+                      <li><a href="?mod=app&c=people&a=list" target="_self">List peoples</a></li>
+                      <li><a href="?mod=app&c=people&a=new" target="_self">New people</a></li>
                     </ul>
                   </li>
+
+<!--                  <li><a><i class="fa fa-table"></i> Issue <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="?mod=app&c=issue&a=list" target="_self">List issues</a></li>
+                      <li><a href="?mod=app&c=issue&a=new" target="_self">New issue</a></li>
+                    </ul>
+                  </li>-->
 
                 </ul>
               </div>
@@ -105,7 +114,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="public/production/images/img.jpg" alt="">Admin
+                    <img src="public/production/images/img.jpg" alt="">To Hiep
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">

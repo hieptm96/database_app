@@ -1,7 +1,7 @@
 <!-- footer content -->
         <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            Issue database</a>
           </div>
           <div class="clearfix"></div>
         </footer>
@@ -10,7 +10,7 @@
     </div>
 
     <!-- jQuery -->
-    <script src="public/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="public/vendors/jquery/dist/jquery.min.js"></script> -->
     <!-- Bootstrap -->
     <script src="public/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
